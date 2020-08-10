@@ -46,10 +46,10 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Academic Projects</a>
@@ -157,6 +157,33 @@
         </div>
       </section>
 
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>My interests are as follows:
+
+            <b><div style="float: left; width: 50%;">
+              <ul><li>Computer Architecture</li>
+                  <li>FPGAs</li>
+				  <li>Reconfigurable Computing</li>
+                  </ul></div>
+
+            <div style="float: right; width: 50%;">
+              <ul><li>Deep Neural Networks</li>
+			  	  <li>Hardware Accelerators</li>
+                  <li>Approximate Computing</li>
+                  <!-- <li>High-performance Computing</li> -->
+                  <!-- <li>Imitation Learning</li> -->
+                </ul></div>
+          </br></b></p></div>
+          
+          <p>The high computation demands of deep learning models motivate the hardware acceleration of neural networks. Recent studies have focused on four architectures of accelerators for DNNs, including GPU, FPGA. ASIC, and CGRA. </br>
+		     Because of the high power consumption of GPU, it's not efficient to use them in embedded systems, as in these devices power consumption is a critical challenge. Also, according to the development of Neural Networks, flexibility is the major benefit of FPGAs over the ASIC. Thanks to Deep Neural Network's inherent tolerance against errors, the bit-width of data and operations in neural networks can be reduced with a negligible impact on accuracy. In many designed accelerators, they have considered a minimum bit-width that preserves the original accuracy. However, researches have shown that not also the minimum required bit-width varies significantly across variant neural networks, but also it differs across different layers of a single neural network.  </br>
+			 In my master thesis, my aim is to innovate an architecture for CNNs which is able to change the working bit-width dynamically. The design supports run-time splitting an operator into multiple independent operators with smaller bit-width, effectively increasing throughput when lower precision is required. This architecture is designed for FPGA and the multipliers and bit-width adaptin mechanism is optimized for the LUT-based structure of FPGAs. </br>
+			 Moreover, I am so enthusiastic about the future of Artificial Intelligence and how it is impacting our lives. </p>
+        <p>In my free time, I enjoy mountian climbing, painting, listening to music, ect.</p>
+        </div>
+      </section>
 	  
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
@@ -166,7 +193,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">• Research Assistant at University of Tehran</h3>
               <div class="subheading mb-3">Parallel and Network Processing Group (NOC Lab)</div>
-              <p>Network on Chip Laboratory is one of the laboratories of <a href = "https://ece.ut.ac.ir/en">School of Electrical and Computer Engineering</a> of University of Tehran. The research of this group is focused primarily on the exploration of high-performance and low-power computer architectures with a current emphasis on highly parallel computer architectures, interconnection networks, and in-memory processing.
+              <p>Network on Chip Laboratory is one of the laboratories of <a href = "https://ece.ut.ac.ir/en">School of Electrical and Computer Engineering</a> of University of Tehran. The research group primarly focused on the exploration of high-performance and low-power computer architectures with a current emphasis on highly parallel computer architectures, interconnection networks, and in-memory processing.
 			   Besides, recent researches of this group includes <b>Nueral Network Accelerators</b> and <b>Data/Computation Reuse</b> for Efficient CNN Accelerators. </br> In this laboratory, I’m working on implementation of an FPGA based multi-presission accelerator for deep neural networks. This architecture is able to change the working bit-width dynamically according to the minimum bit-width required to preserve the original accuracy. The multipliers and bit-width adaption mechanism is optimized for the LUT-based structure of FPGAs. Group's supervisor is <a href = "https://ece.ut.ac.ir/en/~modarressi"><b>Dr. Mehdi Modarressi</b></a></p>
             </div>
             <div class="resume-date text-md-right">
@@ -293,38 +320,6 @@
       </section> 
 
       <hr class="m-0">
-
-      
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>My interests are as follows:
-
-            <b><div style="float: left; width: 50%;">
-              <ul><li>Computer Architecture</li>
-                  <li>FPGAs</li>
-				  <li>Reconfigurable Computing</li>
-                  </ul></div>
-
-            <div style="float: right; width: 50%;">
-              <ul><li>Deep Neural Networks</li>
-			  	  <li>Hardware Accelerators</li>
-                  <li>Approximate Computing</li>
-                  <!-- <li>High-performance Computing</li> -->
-                  <!-- <li>Imitation Learning</li> -->
-                </ul></div>
-          </br></b></p></div>
-          
-          <p>The high computation demands of deep learning models motivate the hardware acceleration of neural networks. Recent studies have focused on four architectures of accelerators for DNNs, including GPU, FPGA. ASIC, and CGRA. </br>
-		     Because of the high power consumption of GPU, it's not efficient to use them in embedded systems, as in these devices power consumption is a critical challenge. Also, according to the development of Neural Networks, flexibility is the major benefit of FPGAs over the ASIC. Thanks to Deep Neural Network's inherent tolerance against errors, the bit-width of data and operations in neural networks can be reduced with a negligible impact on accuracy. In many designed accelerators, they have considered a minimum bit-width that preserves the original accuracy. However, researches have shown that not also the minimum required bit-width varies significantly across variant neural networks, but also it differs across different layers of a single neural network.  </br>
-			 In my master thesis, my aim is to innovate an architecture for CNNs which is able to change the working bit-width dynamically. The design supports run-time splitting an operator into multiple independent operators with smaller bit-width, effectively increasing throughput when lower precision is required. This architecture is designed for FPGA and the multipliers and bit-width adaptin mechanism is optimized for the LUT-based structure of FPGAs. </br>
-			 Moreover, I am so enthusiastic about the future of Artificial Intelligence and how it is impacting our lives. </p>
-        <p>In my free time, I enjoy mountian climbing, painting, listening to music, ect.</p>
-        </div>
-      </section>
 
       <hr class="m-0">
 
